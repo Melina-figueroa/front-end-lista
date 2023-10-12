@@ -1,0 +1,43 @@
+.lista-persona {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .lista-persona h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .lista-persona ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lista-persona li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* Estilo para resaltar el primer elemento de la lista */
+  .lista-persona li:first-child {
+    background-color: #ffcc00;
+  }
+  
+  /* Estilo para los elementos impares de la lista */
+  .lista-persona li:nth-child(odd) {
+    background-color: #e971e9;
+  }
+  
+  /* Estilo para los elementos pares de la lista */
+  .lista-persona li:nth-child(even) {
+    background-color: #bb8ef7;
+  }
+  
